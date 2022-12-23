@@ -49,5 +49,6 @@ btnSaveAs.addEventListener("click", async () => {
 btnNew.addEventListener("click", async () => {
 	textEditor.disabled = false;
 	sessionStorage.removeItem("filePath");
+	textEditor.innerHTML = "";
 	console.log("newfile");
 });
