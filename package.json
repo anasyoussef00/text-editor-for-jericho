@@ -1,0 +1,17 @@
+{
+  "name": "quick-start-v1",
+  "version": "1.0.0",
+  "description": "Electron Quick Start Code",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}

@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(27, 38, 66);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.title-bar {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(52, 90, 90);
+  -webkit-app-region: drag;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title-bar .document-name,
+.title-bar .menu-items {
+  margin-right: 10px;
+}
+
+.menu-items button {
+  background-color: rgb(140, 177, 90);
+  border: none;
+  outline: none;
+}
+
+main {
+  flex: 1;
+  padding: 10px;
+}
+
+main textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+}

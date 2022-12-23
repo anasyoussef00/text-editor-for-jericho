@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="https://kit.fontawesome.com/dea2802d72.js" crossorigin="anonymous"></script>
+  <title>Text Editor</title>
+</head>
+<body>
+  <div class="title-bar">
+    <span class="document-name">Please select a file</span>
+    <div class="menu-items">
+      <!-- new -->
+      <button type="button" id="new-btn"><i class="fa-solid fa-newspaper"></i>New</button>
+      <!-- open -->
+      <button type="button" id="open-btn"><i class="fa-regular fa-folder-open"></i>open</button>
+      <!-- save -->
+      <button type="button" id="save-btn"><i class="fa-solid fa-floppy-disk"></i>Save</button>
+      <!-- save as -->
+      <button type="button" id="save-as-btn"><i class="fa-regular fa-floppy-disks">Save As</i></button>
+    </div>
+  </div>
+  <main>
+    <textarea id="text-editor" cols="30" rows="10" disabled></textarea>
+  </main>
+  <script src="./js/scripts.js"></script>
+</body>
+</html>
